@@ -1,14 +1,21 @@
-<script setup>
+<script>
  import Header from './components/Header.vue';
+  import Projects from './components/Projects.vue';
+ export default {
+  components: {
+    Header,
+    Projects
+  }
+ } 
 </script>
 
 <template>
   <Header></Header>
-  World
+  <Projects></Projects>
 </template>
 
 <style lang="scss">
-    @use './style.css';
+    @use './styles/style.scss';
 
     
 </style>
