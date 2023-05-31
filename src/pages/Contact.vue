@@ -1,12 +1,11 @@
 <template>
-
-
+    Contact Page
 </template>
 
 <script>
 
     export default {
-        name: 'ProjectCard'
+        name: 'Contact'
     }
 
 </script>

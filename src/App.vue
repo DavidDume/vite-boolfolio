@@ -1,17 +1,15 @@
 <script>
  import Header from './components/Header.vue';
-  import Projects from './components/Projects.vue';
  export default {
   components: {
-    Header,
-    Projects
+    Header
   }
  } 
 </script>
 
 <template>
   <Header></Header>
-  <Projects></Projects>
+  <router-view></router-view>
 </template>
 
 <style lang="scss">
