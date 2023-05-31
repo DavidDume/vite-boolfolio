@@ -31,7 +31,7 @@
         data() {
             return {
                 projects: [],
-                currPage: 15
+                currPage: 1
             }
         },
         methods: {
