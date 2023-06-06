@@ -1,6 +1,9 @@
 <template>
     Contact Page
-    <FormContact></FormContact>
+    <div class="container mt-5">
+        <FormContact></FormContact>
+    </div>
+    
 </template>
 
 <script>
